@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RandomNumber/static/css/main.20dea0e6.chunk.css",
+    "main.js": "/RandomNumber/static/js/main.88fdd69f.chunk.js",
+    "main.js.map": "/RandomNumber/static/js/main.88fdd69f.chunk.js.map",
+    "runtime-main.js": "/RandomNumber/static/js/runtime-main.ad7a123f.js",
+    "runtime-main.js.map": "/RandomNumber/static/js/runtime-main.ad7a123f.js.map",
+    "static/js/2.42951e7f.chunk.js": "/RandomNumber/static/js/2.42951e7f.chunk.js",
+    "static/js/2.42951e7f.chunk.js.map": "/RandomNumber/static/js/2.42951e7f.chunk.js.map",
+    "static/js/3.f4fcbdc1.chunk.js": "/RandomNumber/static/js/3.f4fcbdc1.chunk.js",
+    "static/js/3.f4fcbdc1.chunk.js.map": "/RandomNumber/static/js/3.f4fcbdc1.chunk.js.map",
+    "index.html": "/RandomNumber/index.html",
+    "static/css/main.20dea0e6.chunk.css.map": "/RandomNumber/static/css/main.20dea0e6.chunk.css.map",
+    "static/js/2.42951e7f.chunk.js.LICENSE.txt": "/RandomNumber/static/js/2.42951e7f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad7a123f.js",
+    "static/js/2.42951e7f.chunk.js",
+    "static/css/main.20dea0e6.chunk.css",
+    "static/js/main.88fdd69f.chunk.js"
+  ]
+}
