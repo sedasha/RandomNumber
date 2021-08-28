@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import Random from './Random'
 import './random.scss'
+import _uniqueId from 'lodash/uniqueId';
 
 const MainRandom = () => {
     const [number, setNumber] = useState([])
     const [startNumber, setStartNumber] = useState(0)
     const [endNumber, setEndNumber] = useState(100)
     const [times, setTimes] = useState(1)
-    const [count, setCount] = useState(1)
+    const [count] = useState(1)
+    
 
 
     const ClickChange = () => {
@@ -18,16 +20,18 @@ const MainRandom = () => {
             console.log(Math.floor(Math.random() * ((endNumber - startNumber) + 1) + startNumber))
             console.log(number2 + 'l')
         }
+        console.log(number2 +'number2')
         setNumber(number2)
     }
   
     console.log(count)
+    
     return (
         <div className="container">
             <h1>Random number:</h1>
             <ul className="list">
-                {number.map(num =>{
-                    return <li key={num}><Random number={num} times={times} /></li>
+                {number.map((num, ind) =>{
+                    return <li key={_uniqueId('prefix-')}><Random number={num} times={times} /></li>
                 })}
             </ul>
             <button className="button" onClick={ClickChange}>Generate</button>

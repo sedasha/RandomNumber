@@ -1,5 +1,6 @@
 import './App.scss';
 import MainRandom from '../src/RandomGame/MainRandom'
+import videogame from '../src/image/videogame.mp4'
 
 function App() {
   return (
